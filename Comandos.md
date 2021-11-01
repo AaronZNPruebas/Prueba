@@ -40,3 +40,6 @@
 
 12. git checkout nombre-de-rama
 - Se mueve a la rama especificada
+
+13. git merge nombre-de-rama
+- Se fusionan la rama master a la rama especificada

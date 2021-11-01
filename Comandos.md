@@ -31,3 +31,12 @@
 
 10. git reset código-de-commit --hard o --soft
 - Se usa para volver a un commit eliminando los que tenga por delante. El soft conserva lo que haya en el staging
+
+11. git brach
+- Muestra las ramas
+
+12. git brach nombre-de-rama
+- Crea una nueva rama con el nombre especificado
+
+12. git checkout nombre-de-rama
+- Se mueve a la rama especificada

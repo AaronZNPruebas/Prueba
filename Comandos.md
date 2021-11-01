@@ -43,3 +43,18 @@
 
 13. git merge nombre-de-rama
 - Se fusionan la rama master a la rama especificada
+
+14. git remote add nombre-del-remote url
+- Se conecta con un repositorio en github
+
+15. git remote -v
+- Se ven los repositorios remotos conectados
+
+16. git clone 
+- Copia el repositorio remoto a la computadora
+
+17. git push nombre-del-remote nombre-de-la-rama
+- Envia el repositorio local al remoto
+
+18. git pull nombre-del-remote nombre-de-la-rama
+- Trae los ultimos commit a la computadora

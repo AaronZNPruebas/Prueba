@@ -8,53 +8,53 @@
 3. git config --global user.email email@dominio.com
 - Creación de email para el user
 
-3. git init
+4. git init
 - Inicializa el repositorio local
 
-4. git add nombre-de-archivo
+5. git add nombre-de-archivo
 - El archivo es seguido y se agrega al staging
 
-5. git commit -m "Mensaje que defina los cambios hechos"
+6. git commit -m "Mensaje que defina los cambios hechos"
 - Se hace el commit para ser añadido al repositorio
 
-6. git status (se le puede añadir -s para ver menos detallado el estado)
+7. git status (se le puede añadir -s para ver menos detallado el estado)
 - Se hace para ver el estado del proyecto
 
-7. git log (se le puede añadir --oneline para ver menos detallado el estado)
+8. git log (se le puede añadir --oneline para ver menos detallado el estado)
 - Se hace para ver los commit del proyecto. Se ve el código, la rama y el commit
 
-8. git checkout código-de-commit
+9. git checkout código-de-commit
 - Se devuelve a un commit sin eliminar los demás commits
 
-9. git show
+10. git show
 - Para ver historial del proyecto
 
-10. git reset código-de-commit --hard o --soft
+11. git reset código-de-commit --hard o --soft
 - Se usa para volver a un commit eliminando los que tenga por delante. El soft conserva lo que haya en el staging
 
-11. git brach
+12. git brach
 - Muestra las ramas
 
-12. git brach nombre-de-rama
+13. git brach nombre-de-rama
 - Crea una nueva rama con el nombre especificado
 
-12. git checkout nombre-de-rama
+14. git checkout nombre-de-rama
 - Se mueve a la rama especificada
 
-13. git merge nombre-de-rama
+15. git merge nombre-de-rama
 - Se fusionan la rama master a la rama especificada
 
-14. git remote add nombre-del-remote url
+16. git remote add nombre-del-remote url
 - Se conecta con un repositorio en github
 
-15. git remote -v
+17. git remote -v
 - Se ven los repositorios remotos conectados
 
-16. git clone 
+18. git clone 
 - Copia el repositorio remoto a la computadora
 
-17. git push nombre-del-remote nombre-de-la-rama
+19. git push nombre-del-remote nombre-de-la-rama
 - Envia el repositorio local al remoto
 
-18. git pull nombre-del-remote nombre-de-la-rama
+20. git pull nombre-del-remote nombre-de-la-rama
 - Trae los ultimos commit a la computadora
